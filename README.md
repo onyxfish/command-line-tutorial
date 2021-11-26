@@ -86,7 +86,7 @@ NACIS notes.txt		tyler-env.txt
 Roblox
 ```
 
-By passing `Docuemnts` as an **argument** to `ls`, it's shown me the files in my `Documents` directory, which is inside my **home directory**.
+By passing `Documents` as an **argument** to `ls`, it's shown me the files in my `Documents` directory, which is inside my **home directory**.
 
 Some things are hidden
 ----------------------
@@ -306,7 +306,7 @@ In this example we've used the ``..`` to construct a relative path directly to t
 Tab completion saves the day
 ----------------------------
 
-Even knowing about `~` and ``..`` you are still going to be typing a lot of folder names. Fortunantly, your **command line** supports **tab completion** for both **commands** and **directories**. To see this in action, type this, but instead of hitting enter after the second command, hit the Tab key where indicated in the second command. (Don't type ``[TAB]``.)
+Even knowing about `~` and ``..`` you are still going to be typing a lot of folder names. Fortunately, your **command line** supports **tab completion** for both **commands** and **directories**. To see this in action, type this, but instead of hitting enter after the second command, hit the Tab key where indicated in the second command. NOTE: (Don't type ``[TAB]``.)
 
 ```
 $ cd ~
@@ -349,7 +349,7 @@ $ rm test.txt
 
 Now if you run ``ls`` you'll see that ``test.txt`` is no more.
 
-Take not that this is a little different than right-clicking a file in Finder and selecting "Move to Trash" because there is no Trash Can on the command line. Once you delete it, it's simply gone.
+Take note that this is a little different than right-clicking a file in Finder and selecting "Move to Trash" because there is no Trash Can on the command line. Once you delete it, it's simply gone.
 
 Create a directory
 ------------------
@@ -417,7 +417,7 @@ This will delete all files in the current working directory that begin with ``te
 Finding the file you need
 -------------------------
 
-Finding files in the command line is an obvious thing you might need to do, and yet even some veteran terminal users can't remember how to do it off the top of their had. The ``find`` **command** is a good example of an exception to the rules of the command line. In particular, it uses **flags** and **arguments** in a different way than the other commands we've looked at. Let's create a file and find it:
+Finding files in the command line is an obvious thing you might need to do, and yet even some veteran terminal users can't remember how to do it off the top of their head. The ``find`` **command** is a good example of an exception to the rules of the command line. In particular, it uses **flags** and **arguments** in a different way than the other commands we've looked at. Let's create a file and find it:
 
 ```
 $ touch test.txt
